@@ -1,0 +1,104 @@
+.awesome_interest_form_container {
+	background: #FFFFFF;	
+	box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+	padding: 30px;
+	text-align: center;
+}
+	.awesome_interest_form_container fieldset {
+		border: none;
+	}
+		.awesome_interest_form_container fieldset#guests {
+			display: none;
+		}
+	.awesome_interest_form_container fieldset H3{
+		color: #666666;
+		margin: 30px 0;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+	}
+	.awesome_interest_form_container fieldset .checkbox {
+		cursor: pointer;
+		display: inline-block;
+		float: none;
+		font-size: 1.2em;
+		margin: 0 1% 10px;
+		position: relative;
+		text-align: center;
+		width: 48%;
+	}
+		.awesome_interest_form_container fieldset .checkbox input[type="checkbox"] {
+			visibility: hidden;
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			line-height: normal;
+		}
+		.awesome_interest_form_container fieldset .checkbox label {
+			color: #666666;
+			cursor: pointer;
+			display: inline-block;
+			height: 20px;
+			line-height: 20px;
+			padding-left: 35px;
+			position: relative;
+		}
+			.awesome_interest_form_container fieldset .checkbox label:before {
+				border: 1px solid #DDD;			
+				box-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+				content: "";
+				cursor: pointer;
+				height: 20px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 20px;
+			}
+			.awesome_interest_form_container fieldset .checkbox label:before {
+				background: #FFFFFF;
+			}
+			.awesome_interest_form_container fieldset .checkbox label:after {
+				background: none repeat scroll 0 0 transparent;
+				border-color: -moz-use-text-color -moz-use-text-color #333333 #333333;
+				border-image: none;
+				border-style: none none solid solid;
+				border-width: medium medium 3px 3px;
+				content: "";
+				height: 5px;
+				left: 5px;
+				opacity: 0;
+				position: absolute;
+				top: 5px;
+				transform: rotate(-45deg);
+				width: 9px;
+			}
+			.awesome_interest_form_container fieldset .checkbox input[type="checkbox"]:checked + label:after {
+				opacity: 1;
+			}
+			.awesome_interest_form_container fieldset input[type="text"], 
+			.awesome_interest_form_container fieldset input[type="email"] {
+				background-color: #fff;
+				border: 1px solid #ddd;
+				border-radius: 0;
+				box-sizing: border-box;
+				color: #999;
+				float: left;
+				font-family: sans-serif;
+				font-size: 14px;
+				margin: 0 1% 10px;
+				padding: 11px 1em;
+				width: 48%;		
+			}
+			.awesome_interest_form_container fieldset input[type="submit"] {
+				background: #00A8FF;
+				border: none;
+				border-radius: 3px;
+				color: #fff;
+				cursor: pointer;
+				font-family: "Arial",sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+				line-height: normal;
+				margin-bottom: 20px;
+				margin-top: 30px;
+				padding: 15px 35px;
+				text-transform: uppercase;
+			}
