@@ -1,5 +1,5 @@
 <?php
-/** Language file for Attendance List plugin */
+/** Language file for Awesome Interest plugin */
 
 $al_lang=array(
 "login"=>"You must be logged in to subscribe.",
