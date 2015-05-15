@@ -42,7 +42,7 @@
  if(file_exists(ABSPATH . "wp-content/plugins/awesome-interest/lang.php")) {
 	include (ABSPATH . "wp-content/plugins/awesome-interest/lang.php");
 } else {
-	echo "Attendance List error: language file not found.";
+	echo "Awesome Interest error: language file not found.";
 }
 
 
